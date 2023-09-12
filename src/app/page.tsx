@@ -20,17 +20,21 @@ export default function Home() {
   const descripcionKotlin = "Trabajo realizado en Kotlin"
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 m-8">
-      <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800 rounded-lg">
+      <header className="flex fixed top-0 flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800 border-b-4 border-b-solid border-b-gray-700">
   <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
-    <a className="flex-none text-xl font-semibold dark:text-white" href="#">Portfolio</a>
+    <a href="#">
+      <svg className="h-8 w-8 text-gray-600 dark:text-gray-400"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+      </svg>
+    </a>
     <div className="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:pl-5">
-      <a className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#" aria-current="page">About</a>
-      <a className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Work</a>
+      <a className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#about" aria-current="page">About</a>
+      <a className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#work">Work</a>
       <a className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Contact</a>
     </div>
   </nav>
 </header>{/*Navegation*/}
-      <div className='p-4 m-4'>
+      <div id="about" className='p-4 m-4'>
       <h2 className= "mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Nahuel Gomez</h2>
             <p>I am a software developer with 2+ years of experience in C#, SQL, and web development. Proficient in C# Windows/Web apps, SQL database design and optimization, HTML, CSS and JavaScript. Strong team player, able to meet tight deadlines and deliver high-quality results. Passionate about using technology to make a positive impact.</p>{/*About*/}
             <div className="relative overflow-x-auto p-4 m-4 ">
@@ -52,7 +56,7 @@ export default function Home() {
     </table>
 </div> {/*TableResume*/ }
       </div>
-      <div className="grid grid-cols-2 gap-1 p-4 m-4">
+      <div id="work" className="grid grid-cols-2 gap-1 p-4 m-4">
           <div className="col-span-1 w-1/2 mb-10">
           <div className="bg-white p-4 rounded-lg shadow-md items-center justify-center">
       <div className="w-full h-40 md:h-48 lg:h-56 overflow-hidden rounded-lg relative">
@@ -104,7 +108,7 @@ export default function Home() {
           </div>
       </div>
 
-      <footer className="footer container bg-black items-center justify-center py-4 rounded-lg">
+      <footer id="contact" className="footer container bg-black items-center justify-center py-4 rounded-lg">
             <h4 className='text-white flex items-center justify-center'>About the site</h4>
               <p className="text-body-secondary text-white flex items-center justify-center">Created by Nahuel Nicolás Gomez.</p>
               <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-500">© 2023 <a href="https://flowbite.com/" className="hover:underline">Nahuel Nicolás Gomez™</a>. All Rights Reserved.</span>
