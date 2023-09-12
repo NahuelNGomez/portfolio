@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 import Footer from '../../components/Footer'
 import Navegation from '../../components/Navegation'
 import TableResume from '../../components/tableResume'
@@ -15,7 +16,7 @@ export default function Home() {
   const frontPSA = "https://i.ibb.co/DYLtyXF/Front-Soporte.png"
   const apiRest = "https://i.ibb.co/2Z5hjqS/rest.png"
 
-  const titleRocketLeague = "Rocket League 2-D"
+  const titleRocketLeague = "Rocket League 2D"
   const titleTeg = "T-E-G"
   const titleKotlin = "Comparador APP - Kotlin"
   const titlefrontPSA = "Frontend PSA"
@@ -81,6 +82,12 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold text-center p-2">{titleRocketLeague}</h3>
             <p className="text-gray-600 text-center">{descripcionRocketLeague}</p>
+            <div className="flex justify-center items-center pt-4">
+              <Link href="https://github.com/NahuelNGomez/Rocket-League">
+                <button type="button" className=" text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">view Project
+                </button>
+              </Link>
+            </div>
           </div> {/*<TableWorks imagen={rocketLeague} titulo={titleRocketLeague} descripcion={descripcionRocketLeague} />*/ }
         </div>
           <div className="col-span-1 mb-10">
@@ -97,6 +104,12 @@ export default function Home() {
       </div>
       <h3 className="text-xl font-semibold text-center p-2">{titleTeg}</h3>
       <p className="text-gray-600 text-center">{descripcionTeg}</p>
+      <div className="flex justify-center items-center pt-4">
+        <Link href="https://github.com/NahuelNGomez/TEG">
+          <button type="button" className=" text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">view Project
+          </button>
+         </Link>
+      </div>
     </div>{/* <TableWorks imagen={teg} titulo={titleTeg} descripcion={descripcionTeg} /> */}
           </div>
           <div className="col-span-1 mb-10">
@@ -113,6 +126,13 @@ export default function Home() {
       </div>
       <h3 className="text-xl font-semibold text-center p-2">{titlefrontPSA}</h3>
       <p className="text-gray-600 text-center">{descripcionfrontPSA}</p>
+      <div className="flex justify-center items-center pt-4">
+              <Link href="https://github.com/NahuelNGomez/Frontend-PSA">
+                <button type="button" className=" text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">view Project
+                </button>
+              </Link>
+            </div>
+      
     </div>
     </div>
           <div className="col-span-1 mb-10">
@@ -129,6 +149,12 @@ export default function Home() {
       </div>
       <h3 className="text-xl font-semibold text-center p-2">{titleApiRest}</h3>
       <p className="text-gray-600 text-center">{descripcionApiRest}</p>
+      <div className="flex justify-center items-center pt-4">
+              <Link href="https://github.com/NahuelNGomez/soporteAPI">
+                <button type="button" className=" text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">view Project
+                </button>
+              </Link>
+            </div>
     </div>
     </div>
           <div className="col-span-1 mb-10">
@@ -145,6 +171,12 @@ export default function Home() {
       </div>
       <h3 className="text-xl font-semibold text-center p-2">{titleKotlin}</h3>
       <p className="text-gray-600 text-center">{descripcionKotlin}</p>
+      <div className="flex justify-center items-center pt-4">
+              <Link href="https://github.com/NahuelNGomez/Proyecto-final-Comparador">
+                <button type="button" className=" text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">view Project
+                </button>
+              </Link>
+            </div>
     </div>
             {/* <TableWorks imagen={kotlin} titulo={titleKotlin} descripcion={descripcionKotlin} /> /> */}
           </div>
