@@ -8,9 +8,9 @@ import TableWorks from '../../components/TableWorks'
 
 export default function Home() {
 
-  const rocketLeague = "/rocketLeague.jpg";
-  const teg = "/Teg.png";
-  const kotlin = "/kotlin.png";
+  const rocketLeague = "https://i.ibb.co/brRpmFm/rocket-League.jpg";
+  const teg = "https://i.ibb.co/7vtvyYT/Teg.png";
+  const kotlin = "https://i.ibb.co/2hJD42H/kotlin.png";
   const titleRocketLeague = "Rocket League"
   const titleTeg = "T-E-G"
   const titleKotlin = "Comparador APP - Kotlin"
