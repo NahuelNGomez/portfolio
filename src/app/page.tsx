@@ -8,6 +8,8 @@ import About from '../../components/About'
 import TableWorks from '../../components/TableWorks'
 
 
+
+
 export default function Home() {
 
   const rocketLeague = "https://i.ibb.co/brRpmFm/rocket-League.jpg";
@@ -181,13 +183,7 @@ export default function Home() {
             {/* <TableWorks imagen={kotlin} titulo={titleKotlin} descripcion={descripcionKotlin} /> /> */}
           </div>
       </div>
-
-      <footer id="contact" className="footer container bg-black items-center justify-center py-4 rounded-lg">
-            <h4 className='text-white flex items-center justify-center'>About the site</h4>
-              <p className="text-body-secondary text-white flex items-center justify-center">Created by Nahuel Nicolás Gomez.</p>
-              <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-500">© 2023 <a href="https://flowbite.com/" className="hover:underline">Nahuel Nicolás Gomez™</a>. All Rights Reserved.</span>
-</footer> {/*Footer */}
-
+      <Footer/>
     </main>
   )
 }
