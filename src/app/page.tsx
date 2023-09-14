@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import Footer from '../../components/Footer'
+import Footer from './components/Home/Footer'
 import Navegation from '../../components/Navegation'
 import TableResume from '../../components/tableResume'
 import About from '../../components/About'
