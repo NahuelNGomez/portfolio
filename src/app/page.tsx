@@ -26,11 +26,11 @@ export default function Home() {
   const descripcionfrontPSA = "Trabajo realizado en TypeScript"
   const descripcionApiRest = "Trabajo realizado en Python"
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 m-8">
+    <main className="min-h-screen flex flex-col">
       <Navegation/>
       <About/>
-      <div id="work" className="grid grid-cols-2 gap-8 ">
-        <div className="col-span-1 mb-10">
+      <div id="work" className="grid grid-cols-2 gap-4 px-24">
+        <div className="col-span-1 mb-10 ">
           <TableWorks image={rocketLeague} title={titleRocketLeague} description={descripcionRocketLeague} />
         </div>
         <div className="col-span-1 mb-10">
