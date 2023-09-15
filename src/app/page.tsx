@@ -15,21 +15,21 @@ export default function Home() {
   const apiRest = "https://i.ibb.co/2Z5hjqS/rest.png"
 
   const titleRocketLeague = "Rocket League 2D"
-  const titleTeg = "T-E-G"
+  const titleTeg = "T - E - G"
   const titleKotlin = "Comparador APP - Kotlin"
   const titlefrontPSA = "Frontend PSA"
   const titleApiRest = "API REST"
 
-  const descripcionRocketLeague = "Trabajo realizado en C++"
-  const descripcionTeg = "Trabajo realizado en Java"
+  const descripcionRocketLeague = "Trabajo realizado en C++ con conceptos de Cliente - Servidor, Sockets, Multithreading y herramientas de visualización como QT5 y SDL2"
+  const descripcionTeg = "Proyecto realizado en Java utilzando POO, TDD y diagramas UML. Se utiliza como herramienta gráfica a JavaFX."
   const descripcionKotlin = "Trabajo realizado en Kotlin"
-  const descripcionfrontPSA = "Trabajo realizado en TypeScript"
+  const descripcionfrontPSA = "Trabajo realizado en TypeScript - Frontend"
   const descripcionApiRest = "Trabajo realizado en Python"
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen">
       <Navegation/>
       <About/>
-      <div id="work" className="grid grid-cols-2 gap-4 px-24">
+      <div id="work" className="grid sm:grid-cols-2 grid-cols-1 gap-4 px-24 ">
         <div className="col-span-1 mb-10 ">
           <TableWorks image={rocketLeague} title={titleRocketLeague} description={descripcionRocketLeague} />
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="col-span-1 mb-10">
           <TableWorks image={apiRest} title={titleApiRest} description={descripcionApiRest} />
         </div>
-        <div className="col-span-1 mb-10">
+        <div className="col-span-1  mb-10">
           <TableWorks image={kotlin} title={titleKotlin} description={descripcionKotlin} />
         </div>
       </div>
