@@ -22,9 +22,9 @@ export default function Home() {
 
   const descripcionRocketLeague = "Trabajo realizado en C++ con conceptos de Cliente - Servidor, Sockets, Multithreading y herramientas de visualización como QT5 y SDL2"
   const descripcionTeg = "Proyecto realizado en Java utilzando POO, TDD y diagramas UML. Se utiliza como herramienta gráfica a JavaFX."
-  const descripcionKotlin = "Trabajo realizado en Kotlin"
-  const descripcionfrontPSA = "Trabajo realizado en TypeScript - Frontend"
-  const descripcionApiRest = "Trabajo realizado en Python"
+  const descripcionKotlin = "aplicación móvil comparadora de textos en Kotlin, ofreciendo una herramienta eficiente para comparar y analizar contenido textual de manera precisa."
+  const descripcionfrontPSA = "Frontend sobre gestión de tickets realizando request a una API. Se utiliza Typescript; Next.js y React. Para el diseño se empleó Bootstrap"
+  const descripcionApiRest = "Backend utilizando Python y SQLAlchemy para la manipulación eficiente de datos, respaldado por una API REST para la gestión de información."
   return (
     <main className="min-h-screen">
       <Navegation/>
