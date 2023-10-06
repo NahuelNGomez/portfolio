@@ -5,6 +5,7 @@ import Footer from './components/Home/Footer'
 import Navegation from './components/Home/Navegation'
 import About from './components/Home/About';
 import TableWorks from './components/Home/TableWorks';
+import ContactMe from './components/Home/ContactMe';
 
 export default function Home() {
 
@@ -46,6 +47,7 @@ export default function Home() {
           <TableWorks image={kotlin} title={titleKotlin} description={descripcionKotlin} />
         </div>
       </div>
+      <ContactMe/>
       <Footer/>
     </main>
   )
