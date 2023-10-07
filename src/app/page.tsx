@@ -25,25 +25,31 @@ export default function Home() {
   const descripcionKotlin = "aplicación móvil comparadora de textos en Kotlin, ofreciendo una herramienta eficiente para comparar y analizar contenido textual de manera precisa."
   const descripcionfrontPSA = "Frontend sobre gestión de tickets realizando request a una API. Se utiliza Typescript; Next.js y React. Para el diseño se empleó Bootstrap"
   const descripcionApiRest = "Backend utilizando Python y SQLAlchemy para la manipulación eficiente de datos, respaldado por una API REST para la gestión de información."
+  
+  const linkRocketLeague = "https://github.com/NahuelNGomez/Rocket-League"
+  const linkTeg = "https://github.com/NahuelNGomez/TEG"
+  const linkKotlin = "https://github.com/NahuelNGomez/Proyecto-final-Comparador"
+  const linkfrontPSA = "https://github.com/NahuelNGomez/Frontend-PSA"
+  const linkApiRest = "https://github.com/NahuelNGomez/soporteAPI"
   return (
     <main className="min-h-screen">
       <Navegation/>
       <About/>
       <div id="work" className="grid sm:grid-cols-2 grid-cols-1 gap-4 px-24 ">
         <div className="col-span-1 mb-10 ">
-          <TableWorks image={rocketLeague} title={titleRocketLeague} description={descripcionRocketLeague} />
+          <TableWorks image={rocketLeague} title={titleRocketLeague} description={descripcionRocketLeague} link={linkRocketLeague} />
         </div>
         <div className="col-span-1 mb-10">
-          <TableWorks image={teg} title={titleTeg} description={descripcionTeg} />
+          <TableWorks image={teg} title={titleTeg} description={descripcionTeg} link={linkTeg}/>
         </div>
         <div className="col-span-1 mb-10">
-          <TableWorks image={frontPSA} title={titlefrontPSA} description={descripcionfrontPSA} />
+          <TableWorks image={frontPSA} title={titlefrontPSA} description={descripcionfrontPSA} link={linkfrontPSA}/>
         </div>
         <div className="col-span-1 mb-10">
-          <TableWorks image={apiRest} title={titleApiRest} description={descripcionApiRest} />
+          <TableWorks image={apiRest} title={titleApiRest} description={descripcionApiRest} link={linkApiRest}/>
         </div>
         <div className="col-span-1  mb-10">
-          <TableWorks image={kotlin} title={titleKotlin} description={descripcionKotlin} />
+          <TableWorks image={kotlin} title={titleKotlin} description={descripcionKotlin} link={linkKotlin}/>
         </div>
       </div>
       <Footer/>
