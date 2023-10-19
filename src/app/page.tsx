@@ -47,7 +47,9 @@ export default function Home() {
           <TableWorks image={kotlin} title={titleKotlin} description={descripcionKotlin} />
         </div>
       </div>
-      <ContactMe/>
+      <div id="contact">
+        <ContactMe />
+      </div>
       <Footer/>
     </main>
   )
