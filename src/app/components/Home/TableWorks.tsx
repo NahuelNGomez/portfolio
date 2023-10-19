@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 interface componentsArgs {
     image: string; // Tipo explícito para la prop 'imagen'
