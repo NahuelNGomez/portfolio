@@ -14,8 +14,8 @@ export default function TableResume() {
             <tbody>
               <tr className="bg-white dark:bg-dark0  hover:bg-dark1 dark:hover:bg-gray-900 transition-colors duration-300">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white">
-                <Link href="/CV - NahuelGomez.pdf" target="_blank">
-                <div className='flex items-center'><svg className="h-8 w-8 text-green-600  p-1"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" />  <polyline points="13 2 13 9 20 9" /></svg><p className="text-green-700">Español</p></div></Link>
+                <Link href="/CV-NahuelGomez.pdf" target="_blank">
+                <div className='flex items-center'><svg className="h-8 w-8 text-green-600  p-1"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round">  <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" />  <polyline points="13 2 13 9 20 9" /></svg><p className="text-green-700">Español</p></div></Link>
                 </th>
               </tr>
             </tbody>
