@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function TableResume() {
     return (
-        <div className="relative overflow-x-auto p-4 m-4 ">
+        <div className="relative overflow-x-auto my-8">
           <table className="w-full text-sm text-left text-gray-800 dark:text-gray-400">
             <thead className="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-dark2 dark:text-gray-900">
               <tr>

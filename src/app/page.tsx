@@ -41,7 +41,7 @@ export default function Home() {
       <Navegation/>
       <About/>
       <div id="work" className="grid sm:grid-cols-2 grid-cols-1 gap-4 px-24 ">
-        <div className="col-span-1 mb-10 ">
+        <div className="col-span-1 mb-10">
           <TableWorks image={rocketLeague} title={titleRocketLeague} description={descripcionRocketLeague} link={linkRocketLeague} />
         </div>
         <div className="col-span-1 mb-10">
