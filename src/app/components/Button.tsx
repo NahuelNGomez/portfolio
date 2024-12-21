@@ -1,5 +1,14 @@
 
-export default function Button({ children, onClick = null, className = "", ...props }) {
+import { ReactNode } from 'react';
+
+interface ButtonProps {
+    children: ReactNode;
+    onClick?: () => void;
+    className?: string;
+    [key: string]: any;
+}
+
+export default function Button({ children, onClick = undefined, className = "", ...props }: ButtonProps) {
     return (
         <button
             onClick={onClick}
