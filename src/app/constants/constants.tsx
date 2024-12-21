@@ -1,5 +1,5 @@
 import Image from 'next/image'
-const BASE_STYLE_TAGS = "rounded-full px-2 py-0.5 text-[10px] font-bold mr-2 flex flex-wrap gap-1 items-center justify-center w-[50px] sm:w-[100px] "
+const BASE_STYLE_TAGS = "rounded-full px-2 py-0.5 text-[10px] font-bold flex flex-wrap gap-1 items-center justify-center w-[60px] sm:w-[100px] "
 const REMOTE_IMG_STYLES = "ml-0"
 export const TAGS = {
     NEXT: {

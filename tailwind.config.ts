@@ -7,6 +7,10 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      code: ['Fira Code', 'Chivo Mono', 'monospace'],
+    },
+
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -14,10 +18,11 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        'dark0': '#0A2458',
-        'dark1': '#144272',
-        'dark2': '#205295',
-        'dark3': '#2C74B3',
+        'dark0': '#010409',
+        'dark1': '#1E222B',
+        'dark2': '#ec8e22',
+        'dark3': '#0c73db',
+        'bgdark0': 'rgb(12,16,23)',
       },
     },
   },
