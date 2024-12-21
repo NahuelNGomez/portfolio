@@ -22,6 +22,7 @@ const config: Config = {
         'dark1': '#1E222B',
         'dark2': '#ec8e22',
         'dark3': '#0c73db',
+        'bgdark0': 'rgb(12,16,23)',
       },
     },
   },
