@@ -1,9 +1,17 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { redirect, usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
 
 export default function Navigation() {
+  const pathname = usePathname(); // Obtiene la ruta actual
   const [active, setActive] = useState("home");
+
+  // Sincroniza la ruta con el estado `active`
+  useEffect(() => {
+    const current = pathname === "/" ? "home" : pathname.replace("/", "");
+    setActive(current);
+  }, [pathname]);
 
   return (
     <header className="flex fixed top-0 flex-no-wrap z-50 w-full bg-white text-sm dark:bg-dark0 h-16">
@@ -22,7 +30,6 @@ export default function Navigation() {
                   }`}
                 href={`/${item === "home" ? "" : item}`}
                 aria-current={active === item ? "page" : undefined}
-                onClick={() => setActive(item)}
               >
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </Link>
@@ -35,4 +42,3 @@ export default function Navigation() {
     </header>
   );
 }
-
