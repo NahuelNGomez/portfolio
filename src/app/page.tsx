@@ -6,8 +6,7 @@ import ProjectsOverview from "./components/Home/ProjectsOverview";
 
 export default function Home() {
   return (
-    <main className="min-h-screen  font-code">
-      <Navegation/>
+    <main className="min-h-screen  font-code" >
       <About/>
       <ProjectsOverview/>
       <div id="contact">
