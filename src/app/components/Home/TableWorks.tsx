@@ -12,7 +12,7 @@ interface componentsArgs {
 
 export default function TableWorks({ image, title, description, link, tags }: componentsArgs) {
   return (
-    <div className="bg-bgdark0 flex flex-col w-[400px] min-h-48 items-center justify-center p-4 rounded-lg shadow-[0_35px_80px_-15px_rgba(0,0,0,1)] hover:scale-105 transition-all duration-300 gap-2">
+    <div className="bg-bgdark0 flex flex-col w-[600px] min-h-48 items-center justify-center p-4 rounded-lg shadow-[0_35px_80px_-15px_rgba(0,0,0,1)] hover:scale-105 transition-all duration-300 gap-2">
       <div className="bg-black flex-col w-full h-52 md:h-72 overflow-hidden rounded-lg relative items-center justify-center">
         <Image
           src={image}
