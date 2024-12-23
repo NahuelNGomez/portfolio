@@ -16,6 +16,22 @@ export const education = [
     }
 ]
 
+export const experience = [
+    {
+        title: "Gestor de proyectos",
+        institution: "SIGBAS - Facultad de ingeniería de la Universidad de Buenos Aires",
+        date: "Junio 2024 - Actualidad",
+        description: "Lidero la parte técnica de un equipo de desarrolladores junior, para un seguimiento del proyecto de extensión universitaria con RITEP, en el proyecto NUTRIR."
+    },
+    {
+        title: "Freelance FullStack Developer", 
+        institution: "-",
+        date: "Marzo 2024 - Actualidad",
+        description: "Desarrollo de aplicaciones web y sistemas personalizados, abarcando desde la planificación hasta el despliegue en producción."
+    }
+
+]
+
 export const proficient = [
     {
         title: "React",
@@ -225,6 +241,12 @@ export const TAGS = {
         icon: (<Image src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" className={REMOTE_IMG_STYLES} alt="Kotlin" width={16} height={16} />
         )
     },
+    APACHE: {
+        name: "Apache",
+        class: BASE_STYLE_TAGS + "bg-[#c19e27] text-white ",
+        icon: (<Image src="https://www.vectorlogo.zone/logos/apache/apache-icon.svg" className={REMOTE_IMG_STYLES} alt="Kotlin" width={16} height={16} />
+        )
+    },
     POSTMAN: {
         name: "Postman",
         class: BASE_STYLE_TAGS + "bg-[#e8b4aa] text-white ",
@@ -240,12 +262,23 @@ export const PROJECTS = [
         title: "Rocket League 2D",
         description: "Trabajo realizado en C++ con conceptos de Cliente - Servidor, Sockets TCP, Multithreading y herramientas de visualización como QT5 y SDL2. Proyecto compartido.",
         link: "https://github.com/NahuelNGomez/Rocket-League",
+        codeAvailable: true,
         tags: [TAGS.CPP, TAGS.QT, TAGS.LINUX]
+    },
+    
+    {
+        image: "/gio.png",
+        title: "GIO - Gestión Integral Organizativa",
+        description: "Trabajo Profesional para el movimiento social Barrios De Pie. Aplicación Fullstack para la gestión de datos de asociaciones cíviles y cooperativas. Proyecto Compartido. Código privado.",
+        codeAvailable: false,
+        link: "https://github.com/NahuelNGomez/Proyecto-final-Comparador",
+        tags: [TAGS.PYTHON, TAGS.FASTAPI, TAGS.FIREBASE, TAGS.POSTMAN, TAGS.POSTGRESQL, TAGS.REACT, TAGS.TYPESCRIPT, TAGS.TAILWIND, TAGS.APACHE]
     },
     {
         image: "https://i.ibb.co/TBg1bfV/image.png",
         title: "Medalgram - FullStack",
         description: "Aplicación FullStack encargada de gestionar eventos de running. Proyecto compartido.",
+        codeAvailable: true,
         link: "https://github.com/NahuelNGomez/Medalgram",
         tags: [TAGS.TYPESCRIPT, TAGS.NEXT, TAGS.REACT, TAGS.TAILWIND, TAGS.FIREBASE, TAGS.JAVA, TAGS.SPRING, TAGS.POSTMAN, TAGS.DOCKER, TAGS.POSTGRESQL]
     },
@@ -253,6 +286,7 @@ export const PROJECTS = [
         image: "https://i.ibb.co/DYLtyXF/Front-Soporte.png",
         title: "Frontend PSA",
         description: "Frontend sobre gestión de tickets realizando request a una API. Se utiliza Typescript; Next.js y React. Para el diseño se empleó Bootstrap",
+        codeAvailable: true,
         link: "https://github.com/NahuelNGomez/Frontend-PSA",
         tags: [TAGS.NEXT, TAGS.REACT, TAGS.FIGMA, TAGS.POSTMAN, TAGS.BOOTSTRAP, TAGS.TYPESCRIPT]
     },
@@ -260,6 +294,7 @@ export const PROJECTS = [
         image: "https://i.ibb.co/2Z5hjqS/rest.png",
         title: "API REST",
         description: "Backend utilizando Python y SQLAlchemy para la manipulación eficiente de datos, respaldado por una API REST para la gestión de información.",
+        codeAvailable: true,
         link: "https://github.com/NahuelNGomez/soporteAPI",
         tags: [TAGS.PYTHON, TAGS.POSTGRESQL, TAGS.FASTAPI, TAGS.POSTMAN]
     },
@@ -268,6 +303,7 @@ export const PROJECTS = [
         image: "https://i.ibb.co/7vtvyYT/Teg.png",
         title: "T - E - G",
         description: "Proyecto realizado en Java utilzando POO, TDD y diagramas UML. Se utiliza como herramienta gráfica a JavaFX. Proyecto compartido.",
+        codeAvailable: true,
         link: "https://github.com/NahuelNGomez/TEG",
         tags: [TAGS.JAVA]
     },
@@ -275,17 +311,9 @@ export const PROJECTS = [
         image: "https://i.ibb.co/sQ8Vwf9/file-transfer.jpg",
         title: "File Transfer",
         description: "Aplicación de transferencia de archivos entre procesos concurrentemente utilizando sockets UDP con protocolos Stop & Wait y Selective Repeat. Se realizó en Python. Proyecto compartido.",
+        codeAvailable: true,
         link: "https://github.com/franciscoduc4/TP1-File-Transfer",
         tags: [TAGS.PYTHON, TAGS.LINUX, TAGS.BASH]
-    },
-
-
-    {
-        image: "https://i.ibb.co/nz88r5Z/kotlin.png",
-        title: "Comparador APP - Kotlin",
-        description: "aplicación móvil comparadora de textos en Kotlin, ofreciendo una herramienta eficiente para comparar y analizar contenido textual de manera precisa.",
-        link: "https://github.com/NahuelNGomez/Proyecto-final-Comparador",
-        tags: [TAGS.KOTLIN]
     }
 
 ]

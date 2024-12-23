@@ -5,6 +5,7 @@ import About from './components/Home/About';
 import ContactMe from './components/Home/ContactMe';
 import ProjectsOverview from "./components/Home/ProjectsOverview";
 import { motion } from "framer-motion"; 
+import Works from './components/Home/Works';
 
 const animationVariants = {
   hidden: { opacity: 0, y: -10 }, // Estado inicial (invisible y desplazado)
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <motion.main className="min-h-screen font-code" initial="hidden" animate="visible" variants={animationVariants} >
       <About/>
+      <Works/>
       <ProjectsOverview/>
       
     </motion.main>

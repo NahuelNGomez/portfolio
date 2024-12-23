@@ -14,7 +14,7 @@ export default function ProjectsOverview() {
                 {PROJECTS.slice(0, 3).map((project, index) => {
                     return (
                         <div key={index} className="col-span-1 mb-10 flex justify-center items-center self-center">
-                            <TableWorks image={project.image} title={project.title} description={project.description} link={project.link} tags={project.tags} />
+                            <TableWorks image={project.image} title={project.title} description={project.description} link={project.link} tags={project.tags} codeAvailable={project.codeAvailable}/>
                         </div>
                     )
                 })}
