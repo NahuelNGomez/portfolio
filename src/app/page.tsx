@@ -17,10 +17,7 @@ export default function Home() {
     <motion.main className="min-h-screen font-code" initial="hidden" animate="visible" variants={animationVariants} >
       <About/>
       <ProjectsOverview/>
-      <div id="contact">
-        <ContactMe />
-      </div>
-      <Footer/>
+      
     </motion.main>
   )
 }
