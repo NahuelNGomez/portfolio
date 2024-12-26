@@ -279,7 +279,7 @@ export const TAGS = {
 
 export const PROJECTS = [
     {
-        image: "/gio.png",
+        image: "https://i.ibb.co/VVSh4Vh/logo.png",
         title: "GIO - Gestión Integral Organizativa",
         description: "Trabajo Profesional para el movimiento social Barrios De Pie. Aplicación Fullstack para la gestión de datos de asociaciones cíviles y cooperativas. Proyecto Compartido. Código privado.",
         codeAvailable: false,
@@ -295,7 +295,7 @@ export const PROJECTS = [
         tags: [TAGS.TYPESCRIPT, TAGS.NEXT, TAGS.REACT, TAGS.TAILWIND, TAGS.FIREBASE, TAGS.JAVA, TAGS.SPRING, TAGS.POSTMAN, TAGS.DOCKER, TAGS.POSTGRESQL]
     },
     {
-        image: "/distributed.png",
+        image: "https://i.ibb.co/cFywV4F/distributed.png",
         title: "Steam Analyzer",
         description: "Aplicación distribuida con Docker y Python para el análisis de datos concurrentemente y tolerante a fallos. Proyecto compartido.",
         link: "https://github.com/NahuelNGomez/steam_analyzer",
