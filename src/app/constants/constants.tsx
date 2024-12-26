@@ -9,10 +9,16 @@ export const education = [
         description: "Estudiante de Ingeniería Informática en la Facultad de Ingeniería de la Universidad de Buenos Aires."
     },
     {
-        title: " en Ciencias Económicas",
-        institution: "Instituto San José",
-        date: "2014 - 2018",
-        description: "....."
+        title: "Full Stack Python",
+        institution: "Codo a Codo 4.0",
+        date: "Agosto - Diciembre 2023",
+        description: "Curso de programación Full Stack en Python, con énfasis en Django y Vue.js."
+    },
+    {
+        title: "Educación secundaria",
+        institution: "Escuela Secundaria Inmaculada conepción",
+        date: "2012 - 2018",
+        description: "Bachiller con orientación en Economía"
     }
 ]
 
@@ -53,6 +59,21 @@ export const proficient = [
     },
     {
         title: "MongoDB",
+    },
+    {
+        title: "Metodologías ágiles",
+    },
+    {
+        title: "Bash",
+    },
+    {
+        title: "FastAPI",
+    },
+    {
+        title: "FIGMA",
+    },
+    {
+        title: "Bootstrap",
     }
 ]
 
@@ -258,15 +279,6 @@ export const TAGS = {
 
 export const PROJECTS = [
     {
-        image: "https://i.ibb.co/brRpmFm/rocket-League.jpg",
-        title: "Rocket League 2D",
-        description: "Trabajo realizado en C++ con conceptos de Cliente - Servidor, Sockets TCP, Multithreading y herramientas de visualización como QT5 y SDL2. Proyecto compartido.",
-        link: "https://github.com/NahuelNGomez/Rocket-League",
-        codeAvailable: true,
-        tags: [TAGS.CPP, TAGS.QT, TAGS.LINUX]
-    },
-    
-    {
         image: "/gio.png",
         title: "GIO - Gestión Integral Organizativa",
         description: "Trabajo Profesional para el movimiento social Barrios De Pie. Aplicación Fullstack para la gestión de datos de asociaciones cíviles y cooperativas. Proyecto Compartido. Código privado.",
@@ -281,6 +293,22 @@ export const PROJECTS = [
         codeAvailable: true,
         link: "https://github.com/NahuelNGomez/Medalgram",
         tags: [TAGS.TYPESCRIPT, TAGS.NEXT, TAGS.REACT, TAGS.TAILWIND, TAGS.FIREBASE, TAGS.JAVA, TAGS.SPRING, TAGS.POSTMAN, TAGS.DOCKER, TAGS.POSTGRESQL]
+    },
+    {
+        image: "/distributed.png",
+        title: "Steam Analyzer",
+        description: "Aplicación distribuida con Docker y Python para el análisis de datos concurrentemente y tolerante a fallos. Proyecto compartido.",
+        link: "https://github.com/NahuelNGomez/steam_analyzer",
+        codeAvailable: true,
+        tags: [TAGS.PYTHON, TAGS.DOCKER, TAGS.LINUX]
+    },
+    {
+        image: "https://i.ibb.co/brRpmFm/rocket-League.jpg",
+        title: "Rocket League 2D",
+        description: "Trabajo realizado en C++ con conceptos de Cliente - Servidor, Sockets TCP, Multithreading y herramientas de visualización como QT5 y SDL2. Proyecto compartido.",
+        link: "https://github.com/NahuelNGomez/Rocket-League",
+        codeAvailable: true,
+        tags: [TAGS.CPP, TAGS.QT, TAGS.LINUX]
     },
     {
         image: "https://i.ibb.co/DYLtyXF/Front-Soporte.png",

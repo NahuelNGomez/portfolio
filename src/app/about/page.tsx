@@ -49,7 +49,7 @@ export default function About() {
 
             <div className="border-[1px] border-dark1 w-full"></div>
             <section className="flex flex-col gap-[20px]">
-                <h2 className="text-[20px] underline decoration-dark2 underline-offset-4">Sobre mí</h2>
+            <h2 className="text-[20px] underline decoration-dark2 underline-offset-4">Sobre mí</h2>
                 <p className="text-[16px]">Desarrollador de software con 3 años de experiencia en proyectos sobre programación realizados en C; C++; Python; y Java. Fuerte respaldo en Git y Github. Estoy ansioso por ingresar al mundo profesional para aprovechar mis habilidades y hacer una contribución significativa a las empresas.</p>
             </section>
             <div className="border-[1px] border-dark1 w-full"></div>
