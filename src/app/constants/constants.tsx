@@ -279,7 +279,7 @@ export const TAGS = {
 
 export const PROJECTS = [
     {
-        image: "https://i.ibb.co/VVSh4Vh/logo.png",
+        image: "https://i.ibb.co/RCqPMHq/gio.png",
         title: "GIO - Gestión Integral Organizativa",
         description: "Trabajo Profesional para el movimiento social Barrios De Pie. Aplicación Fullstack para la gestión de datos de asociaciones cíviles y cooperativas. Proyecto Compartido. Código privado.",
         codeAvailable: false,
