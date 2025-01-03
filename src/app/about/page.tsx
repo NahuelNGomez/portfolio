@@ -18,7 +18,7 @@ export default function About() {
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                     <div>
                         <h1 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Nahuel Gomez</h1>
-                        <h2 className="text-[20px] mt-2">Desarrollador de Software | Estudiante de Ingeniería Informática </h2>
+                        <h2 className="text-[20px] mt-2">Desarrollador de Software | Ingeniero Informático</h2>
                     </div>
                     <div className="flex gap-2">
                         <Button className='bg-[#eeeeee] text-dark1' size="icon" asChild>

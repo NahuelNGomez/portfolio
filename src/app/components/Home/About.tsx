@@ -10,7 +10,7 @@ export default function About() {
             <section className="flex flex-col gap-[10px]">
                 <h2 className="text-[20px]">Hola! Soy</h2>
                 <h1 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Nahuel Gomez</h1>
-                <h2 className="text-[20px]">Desarrollador de Software | Estudiante de Ingeniería Informática </h2>
+                <h2 className="text-[20px]">Desarrollador de Software | Ingeniero Informático </h2>
             </section>
             <div className="border-[1px] border-dark1 w-full"></div>
             <section className="flex flex-col gap-[20px]">

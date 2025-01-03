@@ -5,8 +5,8 @@ export const education = [
     {
         title: "Ingeniería Informática",
         institution: "Universidad de Buenos Aires",
-        date: "2019 - Actualidad",
-        description: "Estudiante de Ingeniería Informática en la Facultad de Ingeniería de la Universidad de Buenos Aires."
+        date: "2019 - 2024",
+        description: "Carrera de Ingeniería Informática en la Facultad de Ingeniería de la Universidad de Buenos Aires."
     },
     {
         title: "Full Stack Python",
@@ -102,14 +102,14 @@ export const familier = [
     {
         title: "Ingeniería Informática",
         institution: "Universidad de Buenos Aires",
-        date: "2019 - Actualidad",
-        description: "Estudiante de Ingeniería Informática en la Facultad de Ingeniería de la Universidad de Buenos Aires."
+        date: "2019 - 2024",
+        description: "Carrera de Ingeniería Informática en la Facultad de Ingeniería de la Universidad de Buenos Aires."
     },
     {
-        title: " en Ciencias Económicas",
-        institution: "Instituto San José",
+        title: "Escuela Secundaria",
+        institution: "Escuela Secundaria inmaculada concepción",
         date: "2014 - 2018",
-        description: "....."
+        description: "Orientación en Economía"
     }
 ]
 
