@@ -108,7 +108,7 @@ export const familier = [
     {
         title: "Escuela Secundaria",
         institution: "Escuela Secundaria inmaculada concepción",
-        date: "2014 - 2018",
+        date: "2012 - 2018",
         description: "Orientación en Economía"
     }
 ]
