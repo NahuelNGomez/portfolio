@@ -42,7 +42,7 @@ export default function About() {
                     </div>
                     <div className="flex items-center gap-1">
                         <Mail className="h-4 w-4" />
-                        <span>nngomez@fi.uba.ar</span>
+                        <span>nahuelgnicolas@gmail.com</span>
                     </div>
                 </div>
             </section>
